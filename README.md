@@ -25,7 +25,7 @@ In short:
   - [Rule tools](#rule-tools)
   - [Web interfaces](#web-interfaces)
 - [John the Ripper](#john-the-ripper)
-- [Misc.](#misc)
+- [Misc](#misc)
 - [Websites](#websites)
   - [Communities](#communities)
   - [Lookup services](#lookup-services)
@@ -131,7 +131,7 @@ In short:
 
 
 
-## Misc.
+## Misc
 - [hashID](https://github.com/psypanda/hashID) - Software to identify the different types of hashes.
 - [Name That Hash](https://github.com/HashPals/Name-That-Hash) - Don't know what type of hash it is? Name That Hash will name that hash type! Identify MD5, SHA256 and 300+ other hashes. Comes with a neat web app.
 
