@@ -13,36 +13,36 @@ In short:
 
 
 
-## Content
+## Contents
 
 - [Books](#books)
 - [Cloud](#cloud)
 - [Conversion](#conversion)
 - [Hashcat](#hashcat)
-  * [Automation](#automation)
-  * [Distributed cracking](#distributed-cracking)
-  * [Rules](#rules)
-  * [Rule tools](#rule-tools)
-  * [Web interfaces](#web-interfaces)
+  - [Automation](#automation)
+  - [Distributed cracking](#distributed-cracking)
+  - [Rules](#rules)
+  - [Rule tools](#rule-tools)
+  - [Web interfaces](#web-interfaces)
 - [John the Ripper](#john-the-ripper)
 - [Misc.](#misc)
 - [Websites](#websites)
-  * [Communities](#communities)
-  * [Lookup services](#lookup-services)
+  - [Communities](#communities)
+  - [Lookup services](#lookup-services)
 - [Wordlist tools](#wordlist-tools)
-  * [Analysis](#analysis)
-  * [Generation/Manipulation](#generation-manipulation)
+  - [Analysis](#analysis)
+  - [Generation/Manipulation](#generation-manipulation)
 - [Wordlists](#wordlists)
-  * [Laguage specific](#laguage-specific)
-  * [Other](#other)
+  - [Laguage specific](#laguage-specific)
+  - [Other](#other)
 - [Specific file formats](#specific-file-formats)
-  * [PDF](#pdf)
-  * [PEM](#pem)
-  * [JKS](#jks)
-  * [ZIP](#zip)
+  - [PDF](#pdf)
+  - [PEM](#pem)
+  - [JKS](#jks)
+  - [ZIP](#zip)
 - [Artificial Intelligence](#artificial-intelligence)
 - [Research](#research)
-  * [Papers](#papers)
+  - [Papers](#papers)
 
 
 
