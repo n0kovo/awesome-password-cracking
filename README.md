@@ -31,7 +31,7 @@ In short:
   - [Lookup services](#lookup-services)
 - [Wordlist tools](#wordlist-tools)
   - [Analysis](#analysis)
-  - [Generation/Manipulation](#generation-manipulation)
+  - [Generation/Manipulation](#generation/manipulation)
 - [Wordlists](#wordlists)
   - [Laguage specific](#laguage-specific)
   - [Other](#other)
