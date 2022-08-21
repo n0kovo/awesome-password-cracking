@@ -2,13 +2,12 @@
 
 A curated list of awesome tools, research, papers and other projects related to password cracking and password security.
 
-### Contributing
 
-[Guidelines](https://github.com/narkopolo/awesome-password-cracking/blob/master/CONTRIBUTING.md) tweaked and adapted from `awesome-devenv` – thanks!
 
-In short:
+Read the [guidelines](https://github.com/narkopolo/awesome-password-cracking/blob/master/CONTRIBUTING.md) before contributing! In short:
 
 - List is alphabetically sorted
+- If in doubt, use [awesome-lint](https://github.com/sindresorhus/awesome-lint)
 - If you think an item shouldn't be here [open an issue](https://github.com/narkopolo/awesome-password-cracking/issues/new)
 
 
@@ -63,7 +62,7 @@ In short:
 
 ## Conversion
 - [7z2hashcat](https://github.com/philsmd/7z2hashcat) - Extract information from password-protected .7z archives (and .sfx files) such that you can crack these "hashes" with hashcat.
-- [MacinHash](https://github.com/jmagers/MacinHash) - Convert MacOS plist password file to hash file for password crackers.
+- [MacinHash](https://github.com/jmagers/MacinHash) - Convert macOS plist password file to hash file for password crackers.
 - [NetNTLM-Hashcat](https://github.com/ins1gn1a/NetNTLM-Hashcat) - Converts John The Ripper/Cain format hashes (singular, or in bulk) to HashCat compatible hash format.
 - [Rubeus-to-Hashcat](https://github.com/PwnDexter/Rubeus-to-Hashcat) - Converts / formats Rubeus kerberoasting output into hashcat readable format.
 - [WINHELLO2hashcat](https://github.com/Banaanhangwagen/WINHELLO2hashcat) - With this tool one can extract the "hash" from a WINDOWS HELLO PIN. This hash can be cracked with Hashcat.
@@ -90,7 +89,7 @@ In short:
 ### Automation
 - [Naive hashcat](https://github.com/brannondorsey/naive-hashcat) - Naive hashcat is a plug-and-play script that is pre-configured with naive, emperically-tested, "good enough" parameters/attack types.
 - [autocrack](https://github.com/timbo05sec/autocrack) - Hashcat wrapper to help automate the cracking process.
-- [hashcat.launcher](https://github.com/s77rt/hashcat.launcher) - hashcat.launcher is a cross-platform app that run and control hashcat.
+- [hashcat.launcher](https://github.com/s77rt/hashcat.launcher) - A cross-platform app that run and control hashcat.
 - [hat](https://github.com/sp00ks-git/hat) - An Automated Hashcat Tool for common wordlists and rules to speed up the process of cracking hashes during engagements.
 - [hate_crack](https://github.com/trustedsec/hate_crack) - A tool for automating cracking methodologies through Hashcat from the TrustedSec team.
 
@@ -139,7 +138,7 @@ In short:
 ## Websites
 
 ### Communities
-- [hashcat Forum](https://hashcat.net/forum/) - Forum by the developers of [hashcat](https://github.com/hashcat/hashcat).
+- [hashcat Forum](https://hashcat.net/forum/) - Forum by the developers of hashcat.
 - [Hashmob](https://hashmob.net/) - A growing password recovery community aimed towards being a center point of collaboration for cryptography enthusiasts.
 - [Hashkiller Forum](https://forum.hashkiller.io/) - A password cracking forum with over 20,000 registered users.
 
@@ -147,7 +146,7 @@ In short:
 - [CMD5](https://www.cmd5.org/) - Provides online MD5 / sha1/ mysql / sha256 encryption and decryption services.
 - [CrackStation](https://crackstation.net/) - Free hash lookup service supplying wordlists as well.
 - [Hashes.com](https://hashes.com/) - A hash lookup service with paid features.
-- [Hashkiller](https://hashkiller.io/) - A hash lookup service with a [forum](https://forum.hashkiller.io/).
+- [Hashkiller](https://hashkiller.io/) - A hash lookup service with a forum.
 - [Online Hash Crack](https://www.onlinehashcrack.com/) - Cloud password recovery service.
 
 
