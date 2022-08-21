@@ -31,7 +31,7 @@ In short:
   - [Lookup services](#lookup-services)
 - [Wordlist tools](#wordlist-tools)
   - [Analysis](#analysis)
-  - [Generation/Manipulation](#generation/manipulation)
+  - [Generation/Manipulation](#generationmanipulation)
 - [Wordlists](#wordlists)
   - [Laguage specific](#laguage-specific)
   - [Other](#other)
@@ -82,7 +82,7 @@ In short:
 - [Hashcat-Stuffs](https://github.com/xfox64x/Hashcat-Stuffs) - Collection of hashcat lists and things.
 - [Hashfilter](https://github.com/bharshbarger/Hashfilter) - Read a hashcat potfile and parse different types into a sqlite database.
 - [docker-hashcat](https://github.com/dizcza/docker-hashcat) - Latest hashcat docker for Ubuntu 18.04 CUDA, OpenCL, and POCL.
-- [hashcat-utils](https://github.com/hashcat/hashcat-utils/) - Small utilities that are useful in advanced password cracking
+- [hashcat-utils](https://github.com/hashcat/hashcat-utils/) - Small utilities that are useful in advanced password cracking.
 - [https://github.com/chris408/known_hosts-hashcat](https://github.com/chris408/known_hosts-hashcat) - A guide and tool for cracking ssh known_hosts files with hashcat.
 - [pyhashcat](https://github.com/f0cker/pyhashcat) - Python C API binding to libhashcat.
 
@@ -90,12 +90,12 @@ In short:
 ### Automation
 - [Naive hashcat](https://github.com/brannondorsey/naive-hashcat) - Naive hashcat is a plug-and-play script that is pre-configured with naive, emperically-tested, "good enough" parameters/attack types.
 - [autocrack](https://github.com/timbo05sec/autocrack) - Hashcat wrapper to help automate the cracking process.
-- [hashcat.launcher](https://github.com/s77rt/hashcat.launcher) - hashcat.launcher is a cross-platform app that run and control hashcat
+- [hashcat.launcher](https://github.com/s77rt/hashcat.launcher) - hashcat.launcher is a cross-platform app that run and control hashcat.
 - [hat](https://github.com/sp00ks-git/hat) - An Automated Hashcat Tool for common wordlists and rules to speed up the process of cracking hashes during engagements.
 - [hate_crack](https://github.com/trustedsec/hate_crack) - A tool for automating cracking methodologies through Hashcat from the TrustedSec team.
 
 ### Distributed cracking
-- [CrackLord](https://github.com/jmmcatee/cracklord) - Queue and resource system for cracking passwords
+- [CrackLord](https://github.com/jmmcatee/cracklord) - Queue and resource system for cracking passwords.
 - [Hashtopolis](https://github.com/hashtopolis/server) - A multi-platform client-server tool for distributing hashcat tasks to multiple computers.
 - [Kraken](https://github.com/arcaneiceman/kraken) - A multi-platform distributed brute-force password cracking system.
 - [fitcrack](https://github.com/nesfit/fitcrack) - A hashcat-based distributed password cracking system.
@@ -126,7 +126,7 @@ In short:
 ## John the Ripper
 *[John the Ripper](https://github.com/openwall/john) is "an Open Source password security auditing and password recovery tool available for many operating systems." The following are projects directly related to John the Ripper in one way or another.*
 
-- [BitCracker](https://github.com/e-ago/bitcracker) - BitCracker is the first open source password cracking tool for memory units encrypted with BitLocker.- [BitCracker](https://github.com/e-ago/bitcracker) - BitCracker is the first open source password cracking tool for memory units encrypted with BitLocker.
+- [BitCracker](https://github.com/e-ago/bitcracker) - BitCracker is the first open source password cracking tool for memory units encrypted with BitLocker.
 - [johnny](https://github.com/openwall/johnny) - GUI frontend to John the Ripper.
 
 
@@ -144,7 +144,7 @@ In short:
 - [Hashkiller Forum](https://forum.hashkiller.io/) - A password cracking forum with over 20,000 registered users.
 
 ### Lookup services
-- [CMD5](https://www.cmd5.org/) - Provides online MD5 / sha1/ mysql / sha256 encryption and decryption services
+- [CMD5](https://www.cmd5.org/) - Provides online MD5 / sha1/ mysql / sha256 encryption and decryption services.
 - [CrackStation](https://crackstation.net/) - Free hash lookup service supplying wordlists as well.
 - [Hashes.com](https://hashes.com/) - A hash lookup service with paid features.
 - [Hashkiller](https://hashkiller.io/) - A hash lookup service with a [forum](https://forum.hashkiller.io/).
@@ -161,17 +161,17 @@ In short:
 
 ### Generation/Manipulation
 - [Gorilla](https://github.com/d4rckh/gorilla) - Tool for generating wordlists or extending an existing one using mutations.
-- [Keyboard-Walk-Generators](https://github.com/Rich5/Keyboard-Walk-Generators) - Generate Keyboard Walk Dictionaries for cracking
+- [Keyboard-Walk-Generators](https://github.com/Rich5/Keyboard-Walk-Generators) - Generate Keyboard Walk Dictionaries for cracking.
 - [Mentalist](https://github.com/sc0tfree/mentalist) - Mentalist is a graphical tool for custom wordlist generation. It utilizes common human paradigms for constructing passwords and can output the full wordlist as well as rules compatible with Hashcat and John the Ripper.
 - [Phraser](https://github.com/Sparell/Phraser) - Phraser is a phrase generator using n-grams and Markov chains to generate phrases for passphrase cracking.
 - [Rephraser](https://github.com/travco/rephraser) - A Python-based reimagining of Phraser using Markov-chains for linguistically-correct password cracking.
 - [WikiRaider](https://github.com/NorthwaveSecurity/wikiraider) - WikiRaider enables you to generate wordlists based on country specific databases of Wikipedia.
 - [common-substr](https://github.com/sensepost/common-substr) - Simple tool to extract the most common substrings from an input text. Built for password cracking.
 - [duplicut](https://github.com/nil0x42/duplicut) - Remove duplicates from MASSIVE wordlist, without sorting it (for dictionary-based password cracking).
-- [kwprocessor](https://github.com/hashcat/kwprocessor) - Advanced keyboard-walk generator with configureable basechars, keymap and routes
-- [maskprocessor](https://github.com/hashcat/maskprocessor/) - High-performance word generator with a per-position configureable charset
-- [princeprocessor](https://github.com/hashcat/princeprocessor) - Standalone password candidate generator using the PRINCE algorithm
-- [statsprocessor](https://github.com/hashcat/statsprocessor/) - Word generator based on per-position markov-chains
+- [kwprocessor](https://github.com/hashcat/kwprocessor) - Advanced keyboard-walk generator with configureable basechars, keymap and routes.
+- [maskprocessor](https://github.com/hashcat/maskprocessor/) - High-performance word generator with a per-position configureable charset.
+- [princeprocessor](https://github.com/hashcat/princeprocessor) - Standalone password candidate generator using the PRINCE algorithm.
+- [statsprocessor](https://github.com/hashcat/statsprocessor/) - Word generator based on per-position markov-chains.
 - [token-reverser](https://github.com/dariusztytko/token-reverser) - Words list generator to crack security tokens.
 
 
@@ -199,7 +199,7 @@ In short:
 - [pemcracker](https://github.com/bwall/pemcracker) - Tool to crack encrypted PEM files.
 
 ### JKS
-- [JKS private key cracker](https://github.com/floyd-fuh/JKS-private-key-cracker-hashcat)
+- [JKS private key cracker](https://github.com/floyd-fuh/JKS-private-key-cracker-hashcat) - Cracking passwords of private key entries in a JKS fileCracking passwords of private key entries in a JKS file.
 
 ### ZIP
 - [bkcrack](https://github.com/kimci86/bkcrack) - Crack legacy zip encryption with Biham and Kocher's known plaintext attack.
