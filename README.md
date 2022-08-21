@@ -82,7 +82,7 @@ Read the [guidelines](https://github.com/narkopolo/awesome-password-cracking/blo
 - [Hashcat-Stuffs](https://github.com/xfox64x/Hashcat-Stuffs) - Collection of hashcat lists and things.
 - [hashcat-utils](https://github.com/hashcat/hashcat-utils/) - Small utilities that are useful in advanced password cracking.
 - [Hashfilter](https://github.com/bharshbarger/Hashfilter) - Read a hashcat potfile and parse different types into a sqlite database.
-- [https://github.com/chris408/known_hosts-hashcat](https://github.com/chris408/known_hosts-hashcat) - A guide and tool for cracking ssh known_hosts files with hashcat.
+- [known_hosts-hashcat](https://github.com/chris408/known_hosts-hashcat) - A guide and tool for cracking ssh known_hosts files with hashcat.
 - [pyhashcat](https://github.com/f0cker/pyhashcat) - Python C API binding to libhashcat.
 
 
