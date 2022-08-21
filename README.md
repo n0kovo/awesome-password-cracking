@@ -1,4 +1,4 @@
-# Awesome Password Cracking	 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome Password Cracking	 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 A curated list of awesome tools, research, papers and other projects related to password cracking and password security.
 
@@ -8,147 +8,147 @@ A curated list of awesome tools, research, papers and other projects related to 
 
 In short:
 
-* List is alphabetically sorted
-* If you think an item shouldn't be here [open an issue](https://github.com/narkopolo/awesome-password-cracking/issues/new)
+- List is alphabetically sorted
+- If you think an item shouldn't be here [open an issue](https://github.com/narkopolo/awesome-password-cracking/issues/new)
 
 
 
-# Content
+## Content
 
 - [Books](#books)
 - [Cloud](#cloud)
 - [Conversion](#conversion)
 - [Hashcat](#hashcat)
-  - [Automation](#automation)
-  - [Distributed cracking](#distributed-cracking)
-  - [Rules](#rules)
-  - [Rule tools](#rule-tools)
-  - [Web interfaces](#web-interfaces)
+  * [Automation](#automation)
+  * [Distributed cracking](#distributed-cracking)
+  * [Rules](#rules)
+  * [Rule tools](#rule-tools)
+  * [Web interfaces](#web-interfaces)
 - [John the Ripper](#john-the-ripper)
-- [Misc](#misc)
+- [Misc.](#misc)
 - [Websites](#websites)
-  - [Communities](#communities)
-  - [Lookup services](#lookup-services)
+  * [Communities](#communities)
+  * [Lookup services](#lookup-services)
 - [Wordlist tools](#wordlist-tools)
-  - [Analysis](#analysis)
-  - [Generation/Manipulation](#generation-manipulation)
+  * [Analysis](#analysis)
+  * [Generation/Manipulation](#generation-manipulation)
 - [Wordlists](#wordlists)
-  - [Country specific](#country-specific)
-  - [Other](#other)
+  * [Laguage specific](#laguage-specific)
+  * [Other](#other)
 - [Specific file formats](#specific-file-formats)
-  - [PDF](#pdf)
-  - [PEM](#pem)
-  - [JKS](#jks)
-  - [ZIP](#zip)
-- [Artificial intelligence](#artificial-intelligence)
+  * [PDF](#pdf)
+  * [PEM](#pem)
+  * [JKS](#jks)
+  * [ZIP](#zip)
+- [Artificial Intelligence](#artificial-intelligence)
 - [Research](#research)
-  - [Papers](#papers)
+  * [Papers](#papers)
 
 
 
 ## Books
-* [Hash Crack: Password Cracking Manual (v3)](https://www.amazon.com/-/en/Joshua-Picolet/dp/1793458618) - Password Cracking Manual v3 is an expanded reference guide for password recovery (cracking) methods, tools, and analysis techniques.
+- [Hash Crack: Password Cracking Manual (v3)](https://www.amazon.com/-/en/Joshua-Picolet/dp/1793458618) - Password Cracking Manual v3 is an expanded reference guide for password recovery (cracking) methods, tools, and analysis techniques.
 
 
 
 ## Cloud
-* [Cloud_crack](https://github.com/lordsaibat/Cloud_crack) - Crack passwords using Terraform and AWS.
-* [Cloudcat](https://github.com/stormfleet/cloudcat) - A script to automate the creation of cloud infrastructure for hash cracking.
-* [Cloudstomp](https://github.com/Fmstrat/cloudstomp) - Automated deployment of instances on EC2 via plugin for high CPU/GPU applications at the lowest price.
-* [Cloudtopolis](https://github.com/JoelGMSec/Cloudtopolis) - A tool that facilitates the installation and provisioning of Hashtopolis on the Google Cloud Shell platform, quickly and completely unattended (and also, free!).
-* [NPK](https://github.com/c6fc/npk) - NPK is a distributed hash-cracking platform built entirely of serverless components in AWS including Cognito, DynamoDB, and S3.
-* [Penglab](https://github.com/mxrch/penglab) - Abuse of Google Colab for cracking hashes.
-* [Rook](https://github.com/JumpsecLabs/Rook) - Automates the creation of AWS p3 instances for use in GPU-based password cracking.
+- [Cloud_crack](https://github.com/lordsaibat/Cloud_crack) - Crack passwords using Terraform and AWS.
+- [Cloudcat](https://github.com/stormfleet/cloudcat) - A script to automate the creation of cloud infrastructure for hash cracking.
+- [Cloudstomp](https://github.com/Fmstrat/cloudstomp) - Automated deployment of instances on EC2 via plugin for high CPU/GPU applications at the lowest price.
+- [Cloudtopolis](https://github.com/JoelGMSec/Cloudtopolis) - A tool that facilitates the installation and provisioning of Hashtopolis on the Google Cloud Shell platform, quickly and completely unattended (and also, free!).
+- [NPK](https://github.com/c6fc/npk) - NPK is a distributed hash-cracking platform built entirely of serverless components in AWS including Cognito, DynamoDB, and S3.
+- [Penglab](https://github.com/mxrch/penglab) - Abuse of Google Colab for cracking hashes.
+- [Rook](https://github.com/JumpsecLabs/Rook) - Automates the creation of AWS p3 instances for use in GPU-based password cracking.
 
 
 ## Conversion
-* [7z2hashcat](https://github.com/philsmd/7z2hashcat) - Extract information from password-protected .7z archives (and .sfx files) such that you can crack these "hashes" with hashcat.
-* [MacinHash](https://github.com/jmagers/MacinHash) - Convert MacOS plist password file to hash file for password crackers.
-* [NetNTLM-Hashcat](https://github.com/ins1gn1a/NetNTLM-Hashcat) - Converts John The Ripper/Cain format hashes (singular, or in bulk) to HashCat compatible hash format.
-* [Rubeus-to-Hashcat](https://github.com/PwnDexter/Rubeus-to-Hashcat) - Converts / formats Rubeus kerberoasting output into hashcat readable format.
-* [WINHELLO2hashcat](https://github.com/Banaanhangwagen/WINHELLO2hashcat) - With this tool one can extract the "hash" from a WINDOWS HELLO PIN. This hash can be cracked with Hashcat.
-* [bitwarden2hashcat](https://github.com/0x6470/bitwarden2hashcat) - A tool that converts Bitwarden's data into a hashcat-suitable hash.
-* [hc\_to\_7z](https://github.com/philsmd/hc_to_7z) - Convert 7-Zip hashcat hashes back to 7z archives.
-* [hcxtools](https://github.com/ZerBea/hcxtools) - Portable solution for conversion of cap/pcap/pcapng (gz compressed) WiFi dump files to hashcat formats.
-* [itunes_backup2hashcat](https://github.com/philsmd/itunes_backup2hashcat) - Extract the information needed from the Manifest.plist files to convert it to hashes compatible with hashcat.	
-* [mongodb2hashcat](https://github.com/philsmd/mongodb2hashcat) - Extract hashes from the MongoDB database server to a hash format that hashcat accepts: -m 24100 (SCRAM-SHA-1) or -m 24200 (SCRAM-SHA-256).
+- [7z2hashcat](https://github.com/philsmd/7z2hashcat) - Extract information from password-protected .7z archives (and .sfx files) such that you can crack these "hashes" with hashcat.
+- [MacinHash](https://github.com/jmagers/MacinHash) - Convert MacOS plist password file to hash file for password crackers.
+- [NetNTLM-Hashcat](https://github.com/ins1gn1a/NetNTLM-Hashcat) - Converts John The Ripper/Cain format hashes (singular, or in bulk) to HashCat compatible hash format.
+- [Rubeus-to-Hashcat](https://github.com/PwnDexter/Rubeus-to-Hashcat) - Converts / formats Rubeus kerberoasting output into hashcat readable format.
+- [WINHELLO2hashcat](https://github.com/Banaanhangwagen/WINHELLO2hashcat) - With this tool one can extract the "hash" from a WINDOWS HELLO PIN. This hash can be cracked with Hashcat.
+- [bitwarden2hashcat](https://github.com/0x6470/bitwarden2hashcat) - A tool that converts Bitwarden's data into a hashcat-suitable hash.
+- [hc\_to\_7z](https://github.com/philsmd/hc_to_7z) - Convert 7-Zip hashcat hashes back to 7z archives.
+- [hcxtools](https://github.com/ZerBea/hcxtools) - Portable solution for conversion of cap/pcap/pcapng (gz compressed) WiFi dump files to hashcat formats.
+- [itunes_backup2hashcat](https://github.com/philsmd/itunes_backup2hashcat) - Extract the information needed from the Manifest.plist files to convert it to hashes compatible with hashcat.	
+- [mongodb2hashcat](https://github.com/philsmd/mongodb2hashcat) - Extract hashes from the MongoDB database server to a hash format that hashcat accepts: -m 24100 (SCRAM-SHA-1) or -m 24200 (SCRAM-SHA-256).
 
 
 
 ## Hashcat
 *[Hashcat](https://github.com/hashcat/hashcat) is the "World's fastest and most advanced password recovery utility." The following are projects directly related to Hashcat in one way or another.*
 
-* [Autocrack](https://github.com/pry0cc/autocrack) - A set of client and server tools for automatically, and lightly automatically cracking hashes.
-* [Hashcat-Stuffs](https://github.com/xfox64x/Hashcat-Stuffs) - Collection of hashcat lists and things.
-* [Hashfilter](https://github.com/bharshbarger/Hashfilter) - Read a hashcat potfile and parse different types into a sqlite database.
-* [docker-hashcat](https://github.com/dizcza/docker-hashcat) - Latest hashcat docker for Ubuntu 18.04 CUDA, OpenCL, and POCL.
-* [hashcat-utils](https://github.com/hashcat/hashcat-utils/) - Small utilities that are useful in advanced password cracking
-* [https://github.com/chris408/known_hosts-hashcat](https://github.com/chris408/known_hosts-hashcat) - A guide and tool for cracking ssh known_hosts files with hashcat.
-* [pyhashcat](https://github.com/f0cker/pyhashcat) - Python C API binding to libhashcat.
+- [Autocrack](https://github.com/pry0cc/autocrack) - A set of client and server tools for automatically, and lightly automatically cracking hashes.
+- [Hashcat-Stuffs](https://github.com/xfox64x/Hashcat-Stuffs) - Collection of hashcat lists and things.
+- [Hashfilter](https://github.com/bharshbarger/Hashfilter) - Read a hashcat potfile and parse different types into a sqlite database.
+- [docker-hashcat](https://github.com/dizcza/docker-hashcat) - Latest hashcat docker for Ubuntu 18.04 CUDA, OpenCL, and POCL.
+- [hashcat-utils](https://github.com/hashcat/hashcat-utils/) - Small utilities that are useful in advanced password cracking
+- [https://github.com/chris408/known_hosts-hashcat](https://github.com/chris408/known_hosts-hashcat) - A guide and tool for cracking ssh known_hosts files with hashcat.
+- [pyhashcat](https://github.com/f0cker/pyhashcat) - Python C API binding to libhashcat.
 
 
 ### Automation
-* [Naive hashcat](https://github.com/brannondorsey/naive-hashcat) - Naive hashcat is a plug-and-play script that is pre-configured with naive, emperically-tested, "good enough" parameters/attack types.
-* [autocrack](https://github.com/timbo05sec/autocrack) - Hashcat wrapper to help automate the cracking process.
-* [hashcat.launcher](https://github.com/s77rt/hashcat.launcher) - hashcat.launcher is a cross-platform app that run and control hashcat
-* [hat](https://github.com/sp00ks-git/hat) - An Automated Hashcat Tool for common wordlists and rules to speed up the process of cracking hashes during engagements.
-* [hate_crack](https://github.com/trustedsec/hate_crack) - A tool for automating cracking methodologies through Hashcat from the TrustedSec team.
+- [Naive hashcat](https://github.com/brannondorsey/naive-hashcat) - Naive hashcat is a plug-and-play script that is pre-configured with naive, emperically-tested, "good enough" parameters/attack types.
+- [autocrack](https://github.com/timbo05sec/autocrack) - Hashcat wrapper to help automate the cracking process.
+- [hashcat.launcher](https://github.com/s77rt/hashcat.launcher) - hashcat.launcher is a cross-platform app that run and control hashcat
+- [hat](https://github.com/sp00ks-git/hat) - An Automated Hashcat Tool for common wordlists and rules to speed up the process of cracking hashes during engagements.
+- [hate_crack](https://github.com/trustedsec/hate_crack) - A tool for automating cracking methodologies through Hashcat from the TrustedSec team.
 
 ### Distributed cracking
-* [CrackLord](https://github.com/jmmcatee/cracklord) - Queue and resource system for cracking passwords
-* [Hashtopolis](https://github.com/hashtopolis/server) - A multi-platform client-server tool for distributing hashcat tasks to multiple computers.
-* [Kraken](https://github.com/arcaneiceman/kraken) - A multi-platform distributed brute-force password cracking system.
-* [fitcrack](https://github.com/nesfit/fitcrack) - A hashcat-based distributed password cracking system.
+- [CrackLord](https://github.com/jmmcatee/cracklord) - Queue and resource system for cracking passwords
+- [Hashtopolis](https://github.com/hashtopolis/server) - A multi-platform client-server tool for distributing hashcat tasks to multiple computers.
+- [Kraken](https://github.com/arcaneiceman/kraken) - A multi-platform distributed brute-force password cracking system.
+- [fitcrack](https://github.com/nesfit/fitcrack) - A hashcat-based distributed password cracking system.
 
 ### Rules
-* [Hob0Rules](https://github.com/praetorian-inc/Hob0Rules) - Password cracking rules for Hashcat based on statistics and industry patterns.
-* [Kaonashi](https://github.com/kaonashi-passwords/Kaonashi) - Wordlist, rules and masks from Kaonashi project (RootedCON 2019).
-* [OneRuleToRuleThemAll](https://github.com/NotSoSecure/password_cracking_rules) - "One rule to crack all passwords. or atleast we hope so."
-* [clem9669 rules](https://github.com/clem9669/hashcat-rule) - Rule for hashcat or john.
-* [hashcat rules collection](https://github.com/narkopolo/hashcat-rules-collection) - Probably the largest collection of hashcat rules out there.
-* [nsa-rules](https://github.com/NSAKEY/nsa-rules) - Password cracking rules and masks for hashcat generated from cracked passwords.
-* [nyxgeek-rules](https://github.com/nyxgeek/nyxgeek-rules) - Custom password cracking rules for Hashcat and John the Ripper.
+- [Hob0Rules](https://github.com/praetorian-inc/Hob0Rules) - Password cracking rules for Hashcat based on statistics and industry patterns.
+- [Kaonashi](https://github.com/kaonashi-passwords/Kaonashi) - Wordlist, rules and masks from Kaonashi project (RootedCON 2019).
+- [OneRuleToRuleThemAll](https://github.com/NotSoSecure/password_cracking_rules) - "One rule to crack all passwords. or atleast we hope so."
+- [clem9669 rules](https://github.com/clem9669/hashcat-rule) - Rule for hashcat or john.
+- [hashcat rules collection](https://github.com/narkopolo/hashcat-rules-collection) - Probably the largest collection of hashcat rules out there.
+- [nsa-rules](https://github.com/NSAKEY/nsa-rules) - Password cracking rules and masks for hashcat generated from cracked passwords.
+- [nyxgeek-rules](https://github.com/nyxgeek/nyxgeek-rules) - Custom password cracking rules for Hashcat and John the Ripper.
 
 ### Rule tools
-* [duprule](https://github.com/mhasbini/duprule) - Detect & filter duplicate hashcat rules.
+- [duprule](https://github.com/mhasbini/duprule) - Detect & filter duplicate hashcat rules.
 
 
 ### Web interfaces
-* [CrackQ](https://github.com/f0cker/crackq) - A Python Hashcat cracking queue system.
-* [Hashview](https://github.com/hashview/hashview) - A web front-end for password cracking and analytics.
-* [Wavecrack](https://github.com/wavestone-cdt/wavecrack) - Wavestone's web interface for password cracking with hashcat.
-* [WebHashCat](https://github.com/hegusung/WebHashcat) - WebHashcat is a very simple but efficient web interface for hashcat password cracking tool.
-* [crackerjack](https://github.com/ctxis/crackerjack) - CrackerJack is a Web GUI for Hashcat developed in Python.
-* [hashpass](https://github.com/dj-zombie/hashpass) - Hash cracking WebApp & Server for hashcat.
+- [CrackQ](https://github.com/f0cker/crackq) - A Python Hashcat cracking queue system.
+- [Hashview](https://github.com/hashview/hashview) - A web front-end for password cracking and analytics.
+- [Wavecrack](https://github.com/wavestone-cdt/wavecrack) - Wavestone's web interface for password cracking with hashcat.
+- [WebHashCat](https://github.com/hegusung/WebHashcat) - WebHashcat is a very simple but efficient web interface for hashcat password cracking tool.
+- [crackerjack](https://github.com/ctxis/crackerjack) - CrackerJack is a Web GUI for Hashcat developed in Python.
+- [hashpass](https://github.com/dj-zombie/hashpass) - Hash cracking WebApp & Server for hashcat.
 
 
 
 ## John the Ripper
 *[John the Ripper](https://github.com/openwall/john) is "an Open Source password security auditing and password recovery tool available for many operating systems." The following are projects directly related to John the Ripper in one way or another.*
 
-* [BitCracker](https://github.com/e-ago/bitcracker) - BitCracker is the first open source password cracking tool for memory units encrypted with BitLocker.* [BitCracker](https://github.com/e-ago/bitcracker) - BitCracker is the first open source password cracking tool for memory units encrypted with BitLocker.
-* [johnny](https://github.com/openwall/johnny) - GUI frontend to John the Ripper.
+- [BitCracker](https://github.com/e-ago/bitcracker) - BitCracker is the first open source password cracking tool for memory units encrypted with BitLocker.- [BitCracker](https://github.com/e-ago/bitcracker) - BitCracker is the first open source password cracking tool for memory units encrypted with BitLocker.
+- [johnny](https://github.com/openwall/johnny) - GUI frontend to John the Ripper.
 
 
 
 ## Misc.
-* [hashID](https://github.com/psypanda/hashID) - Software to identify the different types of hashes.
-* [Name That Hash](https://github.com/HashPals/Name-That-Hash) - Don't know what type of hash it is? Name That Hash will name that hash type! Identify MD5, SHA256 and 300+ other hashes. Comes with a neat web app.
+- [hashID](https://github.com/psypanda/hashID) - Software to identify the different types of hashes.
+- [Name That Hash](https://github.com/HashPals/Name-That-Hash) - Don't know what type of hash it is? Name That Hash will name that hash type! Identify MD5, SHA256 and 300+ other hashes. Comes with a neat web app.
 
 
 ## Websites
 
 ### Communities
-* [hashcat Forum](https://hashcat.net/forum/) - Forum by the developers of [hashcat](https://github.com/hashcat/hashcat).
-* [Hashmob](https://hashmob.net/) - A growing password recovery community aimed towards being a center point of collaboration for cryptography enthusiasts.
-* [Hashkiller Forum](https://forum.hashkiller.io/) - A password cracking forum with over 20,000 registered users.
+- [hashcat Forum](https://hashcat.net/forum/) - Forum by the developers of [hashcat](https://github.com/hashcat/hashcat).
+- [Hashmob](https://hashmob.net/) - A growing password recovery community aimed towards being a center point of collaboration for cryptography enthusiasts.
+- [Hashkiller Forum](https://forum.hashkiller.io/) - A password cracking forum with over 20,000 registered users.
 
 ### Lookup services
-* [CMD5](https://www.cmd5.org/) - Provides online MD5 / sha1/ mysql / sha256 encryption and decryption services
-* [CrackStation](https://crackstation.net/) - Free hash lookup service supplying wordlists as well.
-* [Hashes.com](https://hashes.com/) - A hash lookup service with paid features.
-* [Hashkiller](https://hashkiller.io/) - A hash lookup service with a [forum](https://forum.hashkiller.io/).
-* [Online Hash Crack](https://www.onlinehashcrack.com/) - Cloud password recovery service.
+- [CMD5](https://www.cmd5.org/) - Provides online MD5 / sha1/ mysql / sha256 encryption and decryption services
+- [CrackStation](https://crackstation.net/) - Free hash lookup service supplying wordlists as well.
+- [Hashes.com](https://hashes.com/) - A hash lookup service with paid features.
+- [Hashkiller](https://hashkiller.io/) - A hash lookup service with a [forum](https://forum.hashkiller.io/).
+- [Online Hash Crack](https://www.onlinehashcrack.com/) - Cloud password recovery service.
 
 
 
@@ -156,66 +156,66 @@ In short:
 *Tools for analyzing, generating and manipulating wordlists.*
 
 ### Analysis
-* [PACK](https://github.com/iphelix/pack) - A collection of utilities developed to aid in analysis of password lists in order to enhance password cracking through pattern detection of masks, rules, character-sets and other password characteristics.
-* [pcfg_cracker](https://github.com/lakiw/pcfg_cracker) - This project uses machine learning to identify password creation habits of users.
+- [PACK](https://github.com/iphelix/pack) - A collection of utilities developed to aid in analysis of password lists in order to enhance password cracking through pattern detection of masks, rules, character-sets and other password characteristics.
+- [pcfg_cracker](https://github.com/lakiw/pcfg_cracker) - This project uses machine learning to identify password creation habits of users.
 
 ### Generation/Manipulation
-* [Gorilla](https://github.com/d4rckh/gorilla) - Tool for generating wordlists or extending an existing one using mutations.
-* [Keyboard-Walk-Generators](https://github.com/Rich5/Keyboard-Walk-Generators) - Generate Keyboard Walk Dictionaries for cracking
-* [Mentalist](https://github.com/sc0tfree/mentalist) - Mentalist is a graphical tool for custom wordlist generation. It utilizes common human paradigms for constructing passwords and can output the full wordlist as well as rules compatible with Hashcat and John the Ripper.
-* [Phraser](https://github.com/Sparell/Phraser) - Phraser is a phrase generator using n-grams and Markov chains to generate phrases for passphrase cracking.
-* [Rephraser](https://github.com/travco/rephraser) - A Python-based reimagining of Phraser using Markov-chains for linguistically-correct password cracking.
-* [WikiRaider](https://github.com/NorthwaveSecurity/wikiraider) - WikiRaider enables you to generate wordlists based on country specific databases of Wikipedia.
-* [common-substr](https://github.com/sensepost/common-substr) - Simple tool to extract the most common substrings from an input text. Built for password cracking.
-* [duplicut](https://github.com/nil0x42/duplicut) - Remove duplicates from MASSIVE wordlist, without sorting it (for dictionary-based password cracking).
-* [kwprocessor](https://github.com/hashcat/kwprocessor) - Advanced keyboard-walk generator with configureable basechars, keymap and routes
-* [maskprocessor](https://github.com/hashcat/maskprocessor/) - High-performance word generator with a per-position configureable charset
-* [princeprocessor](https://github.com/hashcat/princeprocessor) - Standalone password candidate generator using the PRINCE algorithm
-* [statsprocessor](https://github.com/hashcat/statsprocessor/) - Word generator based on per-position markov-chains
-* [token-reverser](https://github.com/dariusztytko/token-reverser) - Words list generator to crack security tokens.
+- [Gorilla](https://github.com/d4rckh/gorilla) - Tool for generating wordlists or extending an existing one using mutations.
+- [Keyboard-Walk-Generators](https://github.com/Rich5/Keyboard-Walk-Generators) - Generate Keyboard Walk Dictionaries for cracking
+- [Mentalist](https://github.com/sc0tfree/mentalist) - Mentalist is a graphical tool for custom wordlist generation. It utilizes common human paradigms for constructing passwords and can output the full wordlist as well as rules compatible with Hashcat and John the Ripper.
+- [Phraser](https://github.com/Sparell/Phraser) - Phraser is a phrase generator using n-grams and Markov chains to generate phrases for passphrase cracking.
+- [Rephraser](https://github.com/travco/rephraser) - A Python-based reimagining of Phraser using Markov-chains for linguistically-correct password cracking.
+- [WikiRaider](https://github.com/NorthwaveSecurity/wikiraider) - WikiRaider enables you to generate wordlists based on country specific databases of Wikipedia.
+- [common-substr](https://github.com/sensepost/common-substr) - Simple tool to extract the most common substrings from an input text. Built for password cracking.
+- [duplicut](https://github.com/nil0x42/duplicut) - Remove duplicates from MASSIVE wordlist, without sorting it (for dictionary-based password cracking).
+- [kwprocessor](https://github.com/hashcat/kwprocessor) - Advanced keyboard-walk generator with configureable basechars, keymap and routes
+- [maskprocessor](https://github.com/hashcat/maskprocessor/) - High-performance word generator with a per-position configureable charset
+- [princeprocessor](https://github.com/hashcat/princeprocessor) - Standalone password candidate generator using the PRINCE algorithm
+- [statsprocessor](https://github.com/hashcat/statsprocessor/) - Word generator based on per-position markov-chains
+- [token-reverser](https://github.com/dariusztytko/token-reverser) - Words list generator to crack security tokens.
 
 
 
 
 ## Wordlists
 ### Laguage specific
-* [Albanian wordlist](https://github.com/its0x08/albanian-wordlist) - A mix of names, last names and some albanian literature.
-* [Danish Phone Wordlist Generator](https://github.com/narkopolo/danish_phone_wordlist_generator) - This tool can generate wordlists of Danish phone numbers by area and/or usage (Mobile, landline etc.) Useful for password cracking or fuzzing Danish targets.
-* [Danish Wordlists](https://github.com/narkopolo/danish-wordlists) - Collection of danish wordlists for cracking danish passwords.
-* [French Wordlists](https://github.com/clem9669/wordlists) - This project aim to provide french word list about everything a person could use as a base password.
+- [Albanian wordlist](https://github.com/its0x08/albanian-wordlist) - A mix of names, last names and some albanian literature.
+- [Danish Phone Wordlist Generator](https://github.com/narkopolo/danish_phone_wordlist_generator) - This tool can generate wordlists of Danish phone numbers by area and/or usage (Mobile, landline etc.) Useful for password cracking or fuzzing Danish targets.
+- [Danish Wordlists](https://github.com/narkopolo/danish-wordlists) - Collection of danish wordlists for cracking danish passwords.
+- [French Wordlists](https://github.com/clem9669/wordlists) - This project aim to provide french word list about everything a person could use as a base password.
 
 ### Other
-* [Rocktastic](https://labs.nettitude.com/tools/rocktastic/) - Includes many permutations of passwords and patterns that have been observed in the wild.
-* [RockYou2021](https://github.com/ohmybahgosh/RockYou2021.txt) - 	RockYou2021.txt is a MASSIVE WORDLIST compiled of various other wordlists.
-* [WeakPass](https://weakpass.com/) - Collection of large wordlists.
+- [Rocktastic](https://labs.nettitude.com/tools/rocktastic/) - Includes many permutations of passwords and patterns that have been observed in the wild.
+- [RockYou2021](https://github.com/ohmybahgosh/RockYou2021.txt) - 	RockYou2021.txt is a MASSIVE WORDLIST compiled of various other wordlists.
+- [WeakPass](https://weakpass.com/) - Collection of large wordlists.
 
 
 
 ## Specific file formats
 ### PDF
-* [pdfrip](https://github.com/mufeedvh/pdfrip) - A multi-threaded PDF password cracking utility equipped with commonly encountered password format builders and dictionary attacks.
+- [pdfrip](https://github.com/mufeedvh/pdfrip) - A multi-threaded PDF password cracking utility equipped with commonly encountered password format builders and dictionary attacks.
 
 ### PEM
-* [pemcracker](https://github.com/bwall/pemcracker) - Tool to crack encrypted PEM files.
+- [pemcracker](https://github.com/bwall/pemcracker) - Tool to crack encrypted PEM files.
 
 ### JKS
-* [JKS private key cracker](https://github.com/floyd-fuh/JKS-private-key-cracker-hashcat)
+- [JKS private key cracker](https://github.com/floyd-fuh/JKS-private-key-cracker-hashcat)
 
 ### ZIP
-* [bkcrack](https://github.com/kimci86/bkcrack) - Crack legacy zip encryption with Biham and Kocher's known plaintext attack.
+- [bkcrack](https://github.com/kimci86/bkcrack) - Crack legacy zip encryption with Biham and Kocher's known plaintext attack.
 
 
 
 ## Artificial Intelligence
-* [adams](https://github.com/TheAdamProject/adams) - Reducing Bias in Modeling Real-world Password Strength via Deep Learning and Dynamic Dictionaries.
+- [adams](https://github.com/TheAdamProject/adams) - Reducing Bias in Modeling Real-world Password Strength via Deep Learning and Dynamic Dictionaries.
 [](https://github.com/cupslab/neural_network_cracking) - Code for cracking passwords with neural networks.
-* [RNN-Passwords](https://github.com/gehaxelt/RNN-Passwords) - Using the char-rnn to learn and guess passwords.
+- [RNN-Passwords](https://github.com/gehaxelt/RNN-Passwords) - Using the char-rnn to learn and guess passwords.
 
 
 
 ## Research
 
 ### Papers
-* [Reducing Bias in Modeling Real-world Password Strength via Deep Learning and Dynamic Dictionaries](https://arxiv.org/abs/2010.12269)
-* [Fast, Lean, and Accurate: Modeling Password Guessability Using Neural Networks](https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/melicher)
-* [PassGAN: A Deep Learning Approach for Password Guessing](https://arxiv.org/pdf/1709.00440)
+- [Reducing Bias in Modeling Real-world Password Strength via Deep Learning and Dynamic Dictionaries](https://arxiv.org/abs/2010.12269)
+- [Fast, Lean, and Accurate: Modeling Password Guessability Using Neural Networks](https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/melicher)
+- [PassGAN: A Deep Learning Approach for Password Guessing](https://arxiv.org/pdf/1709.00440)
