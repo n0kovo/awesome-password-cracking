@@ -211,6 +211,7 @@ Read the [guidelines](https://github.com/narkopolo/awesome-password-cracking/blo
 
 ### ZIP
 - [bkcrack](https://github.com/kimci86/bkcrack) - Crack legacy zip encryption with Biham and Kocher's known plaintext attack.
+- [frackzip](https://github.com/hyc/fcrackzip) - Small tool for cracking encrypted ZIP archives.
 
 
 
