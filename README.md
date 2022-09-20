@@ -42,6 +42,7 @@ Read the [guidelines](https://github.com/narkopolo/awesome-password-cracking/blo
 - [Artificial Intelligence](#artificial-intelligence)
 - [Research](#research)
   - [Papers](#papers)
+  - [Talks](#talks)
 
 
 
