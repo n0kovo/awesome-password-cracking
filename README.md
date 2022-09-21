@@ -4,7 +4,7 @@ A curated list of awesome tools, research, papers and other projects related to 
 
 
 
-Read the [guidelines](https://github.com/narkopolo/awesome-password-cracking/blob/main/CONTRIBUTING.md) before contributing! In short:
+Read [CONTRIBUTING.md](https://github.com/narkopolo/awesome-password-cracking/blob/main/CONTRIBUTING.md) before contributing! In short:
 
 - List is alphabetically sorted
 - If in doubt, use [awesome-lint](https://github.com/sindresorhus/awesome-lint)
