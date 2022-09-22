@@ -98,6 +98,7 @@ Read [CONTRIBUTING.md](https://github.com/narkopolo/awesome-password-cracking/bl
 - [CrackLord](https://github.com/jmmcatee/cracklord) - Queue and resource system for cracking passwords.
 - [fitcrack](https://github.com/nesfit/fitcrack) - A hashcat-based distributed password cracking system.
 - [Hashtopolis](https://github.com/hashtopolis/server) - A multi-platform client-server tool for distributing hashcat tasks to multiple computers.
+- [HashtopoloCLI](https://github.com/jakewnuk/HashtopoCLI) - CLI tool for Hashtopolis API incorporating some of the API functionality into a dynamic Python wrapper.
 - [Kraken](https://github.com/arcaneiceman/kraken) - A multi-platform distributed brute-force password cracking system.
 
 ### Rules
@@ -109,6 +110,7 @@ Read [CONTRIBUTING.md](https://github.com/narkopolo/awesome-password-cracking/bl
 - [nyxgeek-rules](https://github.com/nyxgeek/nyxgeek-rules) - Custom password cracking rules for Hashcat and John the Ripper.
 - [OneRuleToRuleThemAll](https://github.com/NotSoSecure/password_cracking_rules) - "One rule to crack all passwords. or atleast we hope so."
 - [pantagrule](https://github.com/rarecoil/pantagrule) - Large hashcat rulesets generated from real-world compromised passwords.
+- [squid rules](https://github.com/jakewnuk/HIBP-578M) - Hashcat rules ordered by effectiveness from testing HIBPv7.
 
 ### Rule tools
 - [duprule](https://github.com/mhasbini/duprule) - Detect & filter duplicate hashcat rules.
@@ -133,6 +135,7 @@ Read [CONTRIBUTING.md](https://github.com/narkopolo/awesome-password-cracking/bl
 
 
 ## Misc
+- [920mPasswordMasks](https://github.com/jakewnuk/920mPasswordMasks) - Hashcat password masks from 920 million breach passwords filtered into groups.
 - [hashID](https://github.com/psypanda/hashID) - Software to identify the different types of hashes.
 - [Name That Hash](https://github.com/HashPals/Name-That-Hash) - Don't know what type of hash it is? Name That Hash will name that hash type! Identify MD5, SHA256 and 300+ other hashes. Comes with a neat web app.
 
@@ -160,6 +163,8 @@ Read [CONTRIBUTING.md](https://github.com/narkopolo/awesome-password-cracking/bl
 - [PACK](https://github.com/iphelix/pack) - A collection of utilities developed to aid in analysis of password lists in order to enhance password cracking through pattern detection of masks, rules, character-sets and other password characteristics.
 - [pcfg_cracker](https://github.com/lakiw/pcfg_cracker) - This project uses machine learning to identify password creation habits of users.
 - [Pipal](https://github.com/digininja/pipal) - THE password analyser.
+- [PwdStat](https://github.com/jakewnuk/pwdstat) - Tool for identifying systemic password usage, creating password masks, and analyzing cracked password samples with human readable statistics to help defenders.
+
 
 ### Generation/Manipulation
 
@@ -170,6 +175,7 @@ Read [CONTRIBUTING.md](https://github.com/narkopolo/awesome-password-cracking/bl
 - [Gorilla](https://github.com/d4rckh/gorilla) - Tool for generating wordlists or extending an existing one using mutations.
 - [Keyboard-Walk-Generators](https://github.com/Rich5/Keyboard-Walk-Generators) - Generate Keyboard Walk Dictionaries for cracking.
 - [kwprocessor](https://github.com/hashcat/kwprocessor) - Advanced keyboard-walk generator with configureable basechars, keymap and routes.
+- [maskcat](https://github.com/jakewnuk/maskcat) - Utility tool for Hashcat Masks and Password Cracking
 - [maskprocessor](https://github.com/hashcat/maskprocessor/) - High-performance word generator with a per-position configureable charset.
 - [maskuni](https://github.com/flbdx/maskuni) - A standalone fast word generator in the spirit of hashcat's mask generator with unicode support.
 - [Mentalist](https://github.com/sc0tfree/mentalist) - Mentalist is a graphical tool for custom wordlist generation. It utilizes common human paradigms for constructing passwords and can output the full wordlist as well as rules compatible with Hashcat and John the Ripper.
