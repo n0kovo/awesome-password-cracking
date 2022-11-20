@@ -176,7 +176,7 @@ Read [CONTRIBUTING.md](https://github.com/narkopolo/awesome-password-cracking/bl
 - [Gorilla](https://github.com/d4rckh/gorilla) - Tool for generating wordlists or extending an existing one using mutations.
 - [Keyboard-Walk-Generators](https://github.com/Rich5/Keyboard-Walk-Generators) - Generate Keyboard Walk Dictionaries for cracking.
 - [kwprocessor](https://github.com/hashcat/kwprocessor) - Advanced keyboard-walk generator with configureable basechars, keymap and routes.
-- [maskcat](https://github.com/jakewnuk/maskcat) - Utility tool for Hashcat Masks and Password Cracking
+- [maskcat](https://github.com/jakewnuk/maskcat) - Utility tool for Hashcat Masks and Password Cracking.
 - [maskprocessor](https://github.com/hashcat/maskprocessor/) - High-performance word generator with a per-position configureable charset.
 - [maskuni](https://github.com/flbdx/maskuni) - A standalone fast word generator in the spirit of hashcat's mask generator with unicode support.
 - [Mentalist](https://github.com/sc0tfree/mentalist) - Mentalist is a graphical tool for custom wordlist generation. It utilizes common human paradigms for constructing passwords and can output the full wordlist as well as rules compatible with Hashcat and John the Ripper.
