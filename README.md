@@ -91,7 +91,6 @@ Read [CONTRIBUTING.md](https://github.com/narkopolo/awesome-password-cracking/bl
 
 ### Automation
 - [autocrack](https://github.com/timbo05sec/autocrack) - Hashcat wrapper to help automate the cracking process.
-- [hashcat.launcher](https://github.com/s77rt/hashcat.launcher) - A cross-platform app that run and control hashcat.
 - [hat](https://github.com/sp00ks-git/hat) - An Automated Hashcat Tool for common wordlists and rules to speed up the process of cracking hashes during engagements.
 - [hate_crack](https://github.com/trustedsec/hate_crack) - A tool for automating cracking methodologies through Hashcat from the TrustedSec team.
 - [Naive hashcat](https://github.com/brannondorsey/naive-hashcat) - Naive hashcat is a plug-and-play script that is pre-configured with naive, emperically-tested, "good enough" parameters/attack types.
