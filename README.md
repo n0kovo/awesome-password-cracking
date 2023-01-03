@@ -233,6 +233,9 @@ Read [CONTRIBUTING.md](https://github.com/narkopolo/awesome-password-cracking/bl
 
 ## Research
 
+### Articles / Blog Posts
+- [What We Do in the /etc/shadow – Cryptography with Passwords](https://soatok.blog/2022/12/29/what-we-do-in-the-etc-shadow-cryptography-with-passwords)
+
 ### Papers
 - [Generating Optimized Guessing Candidates toward Better Password Cracking from Multi-Dictionaries Using Relativistic GAN (2020)](https://www.mdpi.com/2076-3417/10/20/7306/htm)
 - [GENPass: A General Deep Learning Model for Password Guessing with PCFG Rules and Adversarial Generation (2018)](https://ieeexplore.ieee.org/document/8422243)
