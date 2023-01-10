@@ -42,6 +42,7 @@ Read [CONTRIBUTING.md](https://github.com/narkopolo/awesome-password-cracking/bl
   - [ZIP](#zip)
 - [Artificial Intelligence](#artificial-intelligence)
 - [Research](#research)
+  - [Articles and Blog Posts](#articles-and--blog-posts)
   - [Papers](#papers)
   - [Talks](#talks)
 
@@ -232,6 +233,11 @@ Read [CONTRIBUTING.md](https://github.com/narkopolo/awesome-password-cracking/bl
 
 
 ## Research
+
+### Articles and Blog Posts
+- [Optimizing Wordlists with Masks](https://jakewnuk.com/posts/optimizing-wordlists-w-masks/)
+-  [Purple Rain Attack - Password Cracking With Random Generation](https://www.netmux.com/blog/purple-rain-attack)
+- [Smashing Hashes with Token Swapping Attacks](https://jakewnuk.com/posts/token-swapping-attack/)
 
 ### Papers
 - [Generating Optimized Guessing Candidates toward Better Password Cracking from Multi-Dictionaries Using Relativistic GAN (2020)](https://www.mdpi.com/2076-3417/10/20/7306/htm)
