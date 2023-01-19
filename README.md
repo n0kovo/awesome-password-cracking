@@ -144,6 +144,7 @@ Read [CONTRIBUTING.md](https://github.com/narkopolo/awesome-password-cracking/bl
 
 ### People to Follow
 - Alotdv ([Twitter](https://twitter.com/AlongExc))
+- Clem9669 ([GitHub](https://github.com/clem9669))
 - Coolbry95 ([GitHub](https://github.com/coolbry95) / [Twitter](https://twitter.com/coolbry95))
 - Dakykilla ([GitHub](https://github.com/dakykilla) / [Twitter](https://twitter.com/dakykilla))
 - Dropdeadfu ([GitHub](https://github.com/dropdeadfu) / [Twitter](https://twitter.com/dropdeadfu))
