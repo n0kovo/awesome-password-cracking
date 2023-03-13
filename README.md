@@ -140,6 +140,7 @@ Read [CONTRIBUTING.md](https://github.com/narkopolo/awesome-password-cracking/bl
 
 ## Misc
 - [920mPasswordMasks](https://github.com/jakewnuk/920mPasswordMasks) - Hashcat password masks from 920 million breach passwords filtered into groups.
+- [hashgen](https://github.com/cyclone-github/hashgen) - Hashgen is a simple yet very fast CLI hash generator written in Go and cross compiled for Linux, Windows & Mac.
 - [hashID](https://github.com/psypanda/hashID) - Software to identify the different types of hashes.
 - [Name That Hash](https://github.com/HashPals/Name-That-Hash) - Don't know what type of hash it is? Name That Hash will name that hash type! Identify MD5, SHA256 and 300+ other hashes. Comes with a neat web app.
 
