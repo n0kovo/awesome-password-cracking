@@ -26,7 +26,7 @@ Read [CONTRIBUTING.md](https://github.com/narkopolo/awesome-password-cracking/bl
   - [Web interfaces](#web-interfaces)
 - [John the Ripper](#john-the-ripper)
 - [Misc](#misc)
-  - [People to Follow](#people-to-follow)
+  - [People to Follow](#notable-people)
 - [Websites](#websites)
   - [Communities](#communities)
   - [Lookup services](#lookup-services)
@@ -146,7 +146,7 @@ Read [CONTRIBUTING.md](https://github.com/narkopolo/awesome-password-cracking/bl
 - [Name That Hash](https://github.com/HashPals/Name-That-Hash) - Don't know what type of hash it is? Name That Hash will name that hash type! Identify MD5, SHA256 and 300+ other hashes. Comes with a neat web app.
 
 
-### People to Follow
+### Notable People
 - Alotdv ([Twitter](https://twitter.com/AlongExc))
 - Clem9669 ([GitHub](https://github.com/clem9669))
 - Coolbry95 ([GitHub](https://github.com/coolbry95) / [Twitter](https://twitter.com/coolbry95))
