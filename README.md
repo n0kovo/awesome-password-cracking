@@ -26,7 +26,6 @@ Read [CONTRIBUTING.md](https://github.com/narkopolo/awesome-password-cracking/bl
   - [Web interfaces](#web-interfaces)
 - [John the Ripper](#john-the-ripper)
 - [Misc](#misc)
-  - [Notable People](#notable-people)
 - [Websites](#websites)
   - [Communities](#communities)
   - [Lookup services](#lookup-services)
@@ -101,7 +100,7 @@ Read [CONTRIBUTING.md](https://github.com/narkopolo/awesome-password-cracking/bl
 - [CrackLord](https://github.com/jmmcatee/cracklord) - Queue and resource system for cracking passwords.
 - [fitcrack](https://github.com/nesfit/fitcrack) - A hashcat-based distributed password cracking system.
 - [Hashtopolis](https://github.com/hashtopolis/server) - A multi-platform client-server tool for distributing hashcat tasks to multiple computers.
-- [HashtopoloCLI](https://github.com/jakewnuk/HashtopoCLI) - CLI tool for Hashtopolis API incorporating some of the API functionality into a dynamic Python wrapper.
+- [HashtopoloCLI](https://github.com/jakewnuk/HashtopoCLI)) - CLI tool for Hashtopolis API incorporating some of the API functionality into a dynamic Python wrapper.
 - [Kraken](https://github.com/arcaneiceman/kraken) - A multi-platform distributed brute-force password cracking system.
 
 ### Rules
@@ -112,6 +111,7 @@ Read [CONTRIBUTING.md](https://github.com/narkopolo/awesome-password-cracking/bl
 - [nsa-rules](https://github.com/NSAKEY/nsa-rules) - Password cracking rules and masks for hashcat generated from cracked passwords.
 - [nyxgeek-rules](https://github.com/nyxgeek/nyxgeek-rules) - Custom password cracking rules for Hashcat and John the Ripper.
 - [OneRuleToRuleThemAll](https://github.com/NotSoSecure/password_cracking_rules) - "One rule to crack all passwords. or atleast we hope so."
+- [OneRuleToRuleThemStill](https://github.com/stealthsploit/OneRuleToRuleThemStill) - "A revamped and updated version of my original OneRuleToRuleThemAll hashcat rule."
 - [pantagrule](https://github.com/rarecoil/pantagrule) - Large hashcat rulesets generated from real-world compromised passwords.
 - [squid rules](https://github.com/jakewnuk/HIBP-578M) - Hashcat rules ordered by effectiveness from testing HIBPv7.
 
@@ -145,32 +145,34 @@ Read [CONTRIBUTING.md](https://github.com/narkopolo/awesome-password-cracking/bl
 - [Name That Hash](https://github.com/HashPals/Name-That-Hash) - Don't know what type of hash it is? Name That Hash will name that hash type! Identify MD5, SHA256 and 300+ other hashes. Comes with a neat web app.
 
 
-### Notable People
-- Hydraze ([GitHub](https://github.com/Hydraze) / [Mastodon](https://infosec.exchange/@hydraze) / [Twitter](https://twitter.com/Hydraze))
-- NSAKEY ([GitHub](https://github.com/NSAKEY) / [Twitter](https://twitter.com/_NSAKEY) / [Website](https://abigisp.com/))
-- NullMode ([GitHub](https://github.com/NullMode) / [Mastodon](https://infosec.exchange/@nullmode_@twtr.plus) / [Twitter](https://twitter.com/nullmode_))
-- The_Mechanic ([GitHub](https://github.com/th3mechanic) / [Twitter](https://twitter.com/th3_m3chan1c))
-- ToXiC ([Twitter](https://twitter.com/yiannistox))
+### People to Follow
 - Alotdv ([Twitter](https://twitter.com/AlongExc))
+- Clem9669 ([GitHub](https://github.com/clem9669))
 - Coolbry95 ([GitHub](https://github.com/coolbry95) / [Twitter](https://twitter.com/coolbry95))
 - Dakykilla ([GitHub](https://github.com/dakykilla) / [Twitter](https://twitter.com/dakykilla))
 - Dropdeadfu ([GitHub](https://github.com/dropdeadfu) / [Twitter](https://twitter.com/dropdeadfu))
 - Epixoip ([GitHub](https://github.com/epixoip) / [Mastodon](https://infosec.exchange/@epixoip) / [Twitter](https://twitter.com/jmgosney))
 - Evilmog ([GitHub](https://github.com/evilmog/) / [Mastodon](https://infosec.exchange/@evilmog) / [Twitter](https://twitter.com/Evil_Mog))
+- Hydraze ([GitHub](https://github.com/Hydraze) / [Mastodon](https://infosec.exchange/@hydraze) / [Twitter](https://twitter.com/Hydraze))
+- JakeWnuk ([GitHub](https://github.com/jakewnuk) / [Mastodon](https://infosec.exchange/@JakeWnuk)
 - Kontrast23 ([GitHub](https://github.com/kontrast23) / [Twitter](https://twitter.com/marco_preuss))
 - M3g9tr0n ([GitHub](https://github.com/m3g9tr0n) / [Twitter](https://twitter.com/m3g9tr0n))
 - Matrix ([GitHub](https://github.com/matrix) / [Twitter](https://twitter.com/gm4tr1x))
 - Minga ([Twitter](https://twitter.com/mingadotcom))
 - N0kovo ([GitHub](https://github.com/n0kovo) / [Mastodon](https://infosec.exchange/@n0kovo) / [Twitter](https://twitter.com/n0kovos))
+- NSAKEY ([GitHub](https://github.com/NSAKEY) / [Twitter](https://twitter.com/_NSAKEY) / [Website](https://abigisp.com/))
+- NullMode ([GitHub](https://github.com/NullMode) / [Mastodon](https://infosec.exchange/@nullmode_@twtr.plus) / [Twitter](https://twitter.com/nullmode_))
+- Paule965 ([Twitter](https://twitter.com/paule965))
 - Philsmd ([GitHub](https://github.com/philsmd) / [Twitter](https://twitter.com/philsmd))
 - Roycewilliams ([GitHub](https://github.com/roycewilliams) / [Mastodon](https://infosec.exchange/@tychotithonus) / [Twitter](https://twitter.com/TychoTithonus))
 - RuraPenthe ([GitHub](https://github.com/bitcrackcyber) / [Mastodon](https://infosec.exchange/@rurapenthe) / [Twitter](https://twitter.com/RuraPenthe0))
 - S3in!c ([GitHub](https://github.com/s3inlc) / [Mastodon](https://infosec.exchange/@s3inlc) / [Twitter](https://twitter.com/s3inlc))
 - Tehnlulz ([GitHub](https://github.com/tehnlulz) / [Twitter](https://twitter.com/tehnlulz))
+- The_Mechanic ([GitHub](https://github.com/th3mechanic) / [Twitter](https://twitter.com/th3_m3chan1c))
+- ToXiC ([Twitter](https://twitter.com/yiannistox))
 - Undeath ([GitHub](https://github.com/undeath))
 - Unix-ninja ([GitHub](https://github.com/unix-ninja) / [Mastodon](https://infosec.exchange/@unix_ninja@twitterbridge.jannis.rocks) / [Twitter](https://twitter.com/unix_ninja))
 - Xan ([GitHub](https://github.com/Xanadrel) / [Mastodon](https://infosec.exchange/@Xanadrel) / [Twitter](https://twitter.com/Xanadrel))
-- Paule965 ([Twitter](https://twitter.com/paule965))
 
 
 
