@@ -26,6 +26,7 @@ Read [CONTRIBUTING.md](https://github.com/narkopolo/awesome-password-cracking/bl
   - [Web interfaces](#web-interfaces)
 - [John the Ripper](#john-the-ripper)
 - [Misc](#misc)
+  - [People to Follow](#people-to-follow)
 - [Websites](#websites)
   - [Communities](#communities)
   - [Lookup services](#lookup-services)
