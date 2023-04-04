@@ -2,7 +2,7 @@
 
 In cryptanalysis and computer security, password cracking is the process of recovering passwords from data that has been stored in or transmitted by a computer system in scrambled form. A common approach ([brute-force attack](https://en.wikipedia.org/wiki/Brute-force_attack)) is to repeatedly try guesses for the password and to check them against an available cryptographic hash of the password.
 
-This is a curated list of awesome tools, research, papers and other projects related to password cracking and password security by [@n0kovo@infosec.exchange](https://infosec.exchange/@n0kovo/).
+This is a curated list of awesome tools, research, papers and other projects related to password cracking and password security by [@n0kovo@infosec.exchange](https://infosec.exchange/@n0kovo/?l).
 
 
 Read [CONTRIBUTING.md](https://github.com/narkopolo/awesome-password-cracking/blob/main/CONTRIBUTING.md) before contributing! In short:
@@ -101,7 +101,7 @@ Read [CONTRIBUTING.md](https://github.com/narkopolo/awesome-password-cracking/bl
 - [CrackLord](https://github.com/jmmcatee/cracklord) - Queue and resource system for cracking passwords.
 - [fitcrack](https://github.com/nesfit/fitcrack) - A hashcat-based distributed password cracking system.
 - [Hashtopolis](https://github.com/hashtopolis/server) - A multi-platform client-server tool for distributing hashcat tasks to multiple computers.
-- [HashtopoloCLI](https://github.com/jakewnuk/HashtopoCLI)) - CLI tool for Hashtopolis API incorporating some of the API functionality into a dynamic Python wrapper.
+- [HashtopoloCLI](https://github.com/jakewnuk/HashtopoCLI) - CLI tool for Hashtopolis API incorporating some of the API functionality into a dynamic Python wrapper.
 - [Kraken](https://github.com/arcaneiceman/kraken) - A multi-platform distributed brute-force password cracking system.
 
 ### Rules
@@ -201,7 +201,7 @@ Read [CONTRIBUTING.md](https://github.com/narkopolo/awesome-password-cracking/bl
 - [pcfg_cracker](https://github.com/lakiw/pcfg_cracker) - This project uses machine learning to identify password creation habits of users.
 - [Pipal](https://github.com/digininja/pipal) - THE password analyser.
 - [PwdStat](https://github.com/jakewnuk/pwdstat) - Tool for identifying systemic password usage, creating password masks, and analyzing cracked password samples with human readable statistics to help defenders.
-- [Graphcat](https://github.com/Orange-Cyberdefense/graphcat) - Generate graphs and charts based on password cracking result
+- [Graphcat](https://github.com/Orange-Cyberdefense/graphcat) - Generate graphs and charts based on password cracking result.
 
 ### Generation/Manipulation
 
