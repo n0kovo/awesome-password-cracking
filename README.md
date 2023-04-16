@@ -181,7 +181,7 @@ Read [CONTRIBUTING.md](https://github.com/narkopolo/awesome-password-cracking/bl
 
 ### Communities
 - [hashcat Forum](https://hashcat.net/forum/) - Forum by the developers of hashcat.
-- [Hashmob](https://hashmob.net/) - A growing password recovery community aimed towards being a center point of collaboration for cryptography enthusiasts.
+- [Hashmob](https://hashmob.net/) - A growing password recovery community aimed towards being a center point of collaboration for cryptography enthusiasts. Huge wordlist collection and a lookup service too.
 - [Hashkiller Forum](https://forum.hashkiller.io/) - A password cracking forum with over 20,000 registered users.
 
 ### Lookup services
