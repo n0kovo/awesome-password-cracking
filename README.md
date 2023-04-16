@@ -187,6 +187,7 @@ Read [CONTRIBUTING.md](https://github.com/narkopolo/awesome-password-cracking/bl
 ### Lookup services
 - [CMD5](https://www.cmd5.org/) - Provides online MD5 / sha1/ mysql / sha256 encryption and decryption services.
 - [CrackStation](https://crackstation.net/) - Free hash lookup service supplying wordlists as well.
+- [gohashmob](https://github.com/n0kovo/gohashmob) - Go CLI app to quickly lookup hashes using the HashMob API.
 - [Hashes.com](https://hashes.com/) - A hash lookup service with paid features.
 - [Hashkiller](https://hashkiller.io/) - A hash lookup service with a forum.
 - [Online Hash Crack](https://www.onlinehashcrack.com/) - Cloud password recovery service.
