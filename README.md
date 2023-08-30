@@ -198,7 +198,8 @@ Read [CONTRIBUTING.md](https://github.com/narkopolo/awesome-password-cracking/bl
 
 ### Analysis
 - [PACK](https://github.com/iphelix/pack) - A collection of utilities developed to aid in analysis of password lists in order to enhance password cracking through pattern detection of masks, rules, character-sets and other password characteristics.
-- [password-smelter](https://github.com/TheTechromancer/password-smelter) - Ingests passwords from hashcat, etc. and outputs to HTML, Markdown, XLSX, PNG, JSON. Dark and light themes supported.
+- [password-smelter](https://github.com/TheTechromancer/password-smelter) - Ingests passwords from hashcat, etc. and outputs to HTML, Markdown, XLSX, PNG, JSON. Dark and light themes supported. Compliments password-stretcher.
+- [password-stretcher](https://github.com/thetechromancer/password-stretcher) - Generate "disgusting quantities" of passwords from websites, files, or stdin. Compliments password-smelter.
 - [pcfg_cracker](https://github.com/lakiw/pcfg_cracker) - This project uses machine learning to identify password creation habits of users.
 - [Pipal](https://github.com/digininja/pipal) - THE password analyser.
 - [PwdStat](https://github.com/jakewnuk/pwdstat) - Tool for identifying systemic password usage, creating password masks, and analyzing cracked password samples with human readable statistics to help defenders.
