@@ -223,6 +223,7 @@ Read [CONTRIBUTING.md](https://github.com/narkopolo/awesome-password-cracking/bl
 - [Rephraser](https://github.com/travco/rephraser) - A Python-based reimagining of Phraser using Markov-chains for linguistically-correct password cracking.
 - [Rling](https://github.com/Cynosureprime/rling) - RLI Next Gen (Rling), a faster multi-threaded, feature rich alternative to rli found in hashcat utilities.
 - [statsprocessor](https://github.com/hashcat/statsprocessor/) - Word generator based on per-position markov-chains.
+- [StringZilla](https://github.com/ashvardanian/StringZilla) - Fastest string sort, search, split, and shuffle for long strings and multi-gigabyte files in Python and C.
 - [TTPassGen](https://github.com/tp7309/TTPassGen) - Flexible and scriptable password dictionary generator which supportss brute-force, combination, complex rule modes etc.
 - [token-reverser](https://github.com/dariusztytko/token-reverser) - Words list generator to crack security tokens.
 - [WikiRaider](https://github.com/NorthwaveSecurity/wikiraider) - WikiRaider enables you to generate wordlists based on country specific databases of Wikipedia.
