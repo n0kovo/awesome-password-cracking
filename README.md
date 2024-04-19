@@ -38,7 +38,6 @@ Read [CONTRIBUTING.md](https://github.com/narkopolo/awesome-password-cracking/bl
   - [Other](#other)
 - [Specific file formats](#specific-file-formats)
   - [PDF](#pdf)
-  - [PEM](#pem)
   - [JKS](#jks)
   - [ZIP](#zip)
 - [Artificial Intelligence](#artificial-intelligence)
