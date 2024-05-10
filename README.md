@@ -258,6 +258,7 @@ Read [CONTRIBUTING.md](https://github.com/narkopolo/awesome-password-cracking/bl
 
 ### ZIP
 - [bkcrack](https://github.com/kimci86/bkcrack) - Crack legacy zip encryption with Biham and Kocher's known plaintext attack.
+- [CompressedCrack](https://github.com/mnismt/CompressedCrack) - A command-line tool that utilizes the brute-force method to crack any password-protected compressed file (zip, rar, 7z,...).
 - [frackzip](https://github.com/hyc/fcrackzip) - Small tool for cracking encrypted ZIP archives.
 
 
