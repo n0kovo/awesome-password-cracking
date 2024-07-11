@@ -253,7 +253,7 @@ Read [CONTRIBUTING.md](https://github.com/narkopolo/awesome-password-cracking/bl
 - [pdfrip](https://github.com/mufeedvh/pdfrip) - A multi-threaded PDF password cracking utility equipped with commonly encountered password format builders and dictionary attacks.
 
 ### JKS
-- [JKS private key cracker](https://github.com/floyd-fuh/JKS-private-key-cracker-hashcat) - Cracking passwords of private key entries in a JKS fileCracking passwords of private key entries in a JKS file.
+- [JKS private key cracker](https://github.com/floyd-fuh/JKS-private-key-cracker-hashcat) - Cracking passwords of private key entries in a JKS file.
 
 ### ZIP
 - [bkcrack](https://github.com/kimci86/bkcrack) - Crack legacy zip encryption with Biham and Kocher's known plaintext attack.
