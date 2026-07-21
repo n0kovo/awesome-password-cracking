@@ -77,6 +77,7 @@ Read [CONTRIBUTING.md](https://github.com/narkopolo/awesome-password-cracking/bl
 *[Hashcat](https://github.com/hashcat/hashcat) is the "World's fastest and most advanced password recovery utility." The following are projects directly related to Hashcat in one way or another.*
 
 - [Autocrack](https://github.com/pry0cc/autocrack) - A set of client and server tools for automatically, and lightly automatically cracking hashes.
+- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open source autonomous pentest engine (GPL-3.0): AD + Kubernetes + web, evidence trail on every finding, runs on local or hosted models.
 - [docker-hashcat](https://github.com/dizcza/docker-hashcat) - Latest hashcat docker for Ubuntu 18.04 CUDA, OpenCL, and POCL.
 - [Hashcat-Stuffs](https://github.com/xfox64x/Hashcat-Stuffs) - Collection of hashcat lists and things.
 - [hashcat-utils](https://github.com/hashcat/hashcat-utils/) - Small utilities that are useful in advanced password cracking.
